@@ -1,0 +1,62 @@
+/* THIS ENTIRE STYLE.CSS PAGE IS NOT NECCEARY. QATCH  */
+
+
+/* body {
+    background: lightgray;
+} */
+
+/* trying to change color of the scroll bar ?
+html::-webkit-scrollbar{
+    width:1.4rem;
+}
+
+html::-webkit-scrollbar-track{
+    background-color: darkred;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color:var(--black);
+} */
+
+/* trying to put picture in a circle form not working? 
+head .user img{
+    height:17rem;
+    width:17rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border:.7rem solid var(--red);
+} */
+
+
+/* trying to better look at navbar? */
+/* body1 .header {
+    list-style: none;
+    padding:1em 3em;
+} */
+/* 
+body1 .header navbar {
+    display:block;
+    padding:1rem;
+    margin:1.5rem 0;
+    background: black;
+    color:aliceblue
+    font-size: 2rem;
+    border-radious: 5rem; 
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
