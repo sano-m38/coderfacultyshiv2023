@@ -5,42 +5,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="PWS.js" defer></script>
+
     <title>SHIV.535</title>
 
     <nav class="navbar">
-        <div class="navdiv">
             <ul>
                 <li><a href="Home">Home</a></li>
                 <li><a href="Projects">Projects</a></li>
                 <li><a href="About">About</a></li>
                 <li><a href="Contact me ">Contact me</a></li>
             </ul>
-        </div>
     </nav>
 
-    <style> /* style for navbar with content*/
+
+<!--  style for navbar with content  -->
+    <style> 
         .navbar{
             background: darkgrey;
             font-family: 'Calibri'; 
             border-style: groove;
-            border-width: 5px;
-            border-color: darkred;
+            border-width: 3px;
+            border-color: orangered;
             border-bottom-left-radius: 50px;
             border-top-right-radius: 50px;
             display: flex;
             justify-content: space-between;
             justify-content: flex-end; /* use this to put the nav to right side */
         }
-
-
         li{
             list-style: none; 
             display: inline-block;
         }
-
-
         li a {
-            color: white; 
+            color: black;
             font-size: 18px; 
             font-weight: bold; 
             margin-right: 20px;
@@ -48,11 +47,10 @@
     </style>
 
 
-<!-- tried to gave the picture a circular form did not work using the div. -->
-        <br>
-<div class="oh">
-    <div class="hp">   
-        <img src="selfi.jpg" alt="picture of shiv" height="300">
+
+    <br>
+    <div>   
+        <img class="hp" src="selfi.jpg" alt="picture of shiv" height="300">
         <p>Name: Shiv Kumar</p>
         <p>Surname: Sahye</p>
         <p>Location: Bon Accueil</p>
@@ -61,48 +59,32 @@
         <button>Download CV</button>
         <button>Hire me</button>
     </div>
-</div>
     <br>
     <br>
     <br>
     <br>
     <hr>
 
-    <style> /* style for the home presentation*/
+<!--  style for the home presentation  -->
+    <style> 
     p{
             font-size: 20px;
             font-weight: bold;
             font-family: 'Calibri';
     }
-    img { /* when applying this code its affecting all the other image. tried the below code in a way that is only sectioning it but its not woking */
-        width: auto;
-        border: 3px solid white ;
+    .hp {
+        border:3px solid orangered;
         border-radius: 10px;
         margin-right: 15px;
-        float: left ;
+        float: left;
     }
-    /* .home pre{ 
-        height: 300px;
-        width: auto;
-        border: 3px solid white ;
-        border-radius: 10px;
-        margin-right: 15px;
-        float: left ;
-    } */
-    
-    
     </style>
-    
 </head>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
+
 <body>
     <h1>Projects</h1>
-    <table>
+    <!-- <table>     trying to place this table form on the view more
         <tr>
             <tb>
                 <label>Fullname</label>
@@ -131,29 +113,121 @@
         <input type="checkbox"><label>I Accept the terms and conditions.</label>
         <br>
         <input type="checkbox"><label>Submit.</label>
-    </table>
+    </table> -->
+    <div class="grid">
+        <div class="grid-item">
+            <div class="card">
+                <img class="card-img" src="computerproject.jpg" alt="cs2210 G10 2022 for paper 2">
+                <div class="card-content">
+                    <h1 class="card-header">Computer Science Grade 10</h1>
+                    <p class="card-text">
+                        IGCSE O LEVEL CS-2210 paper 2
+                        <br>
+                        <br>
+                    <h1 class="card-header1">SKILLS accuired</h1> 
+                        - Logical thinking
+                        <br>
+                        - Problem solving
+                        <br>
+                        - Curiosity
+                        <br>
+                        - Adaptability
+                    </p>
+                    <button class="card button"> View more </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
     <hr>
 
+<!--  style for computer projects  -->
+<style> 
+    .grid {
+        background-color: rgb(169, 169, 169);
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 10px 20px 55px ;
+        border: 4px solid orangered;
+    }
 
-<style> /* style for projects */
-    
+    .grid-item:hover {
+        transform: translateY(-0.5%);
+    }
+
+    .card-img {
+        display: block;
+        width: 100%;
+        height: 20rem;
+        object-fit: cover;
+    }
+
+    .card-content {
+        padding: 2rem;
+    }
+
+    .card-header {
+        font-size: 3rem;
+        font-weight: 500;
+        color: black;
+    }
+
+    .card-text1 {
+        font-size: 1.6rem;
+        letter-spacing: 0.1rem;
+        line-height: 1.7;
+        color: black;
+        margin-bottom: 2.5rem;
+    }
+
+    .card button {
+        display: block;
+        width: 100%;
+        padding: 1.5rem;
+        font-size: 2.4rem;
+        text-align: center;
+        color: black;
+        background-color: white;
+        border-color: black;
+        border-width: 0.4rem;
+        border-radius: 3rem;
+        cursor: pointer;
+    }
+
+    .card button:hover,
+    .card button:active {
+        background-color: rgba(215, 131, 75, 0.993);
+    }
 </style>
+
+
+
 
     <h1>About</h1>
     <h2>Educational background</h2>
-    <p1>I finished my Cambridge O Level at Mayflower College in 2022. Initially in 2023 i studied BCS Lv4 Information System which realy gave me an insight of the IT insdustry through it's 
-    Ethics and Challenges.
-    </p1>
+    <ul>
+        <li>- Cambridge O Level</li>
+        <br>
+        <li>- BCS LV4 Information System Modeul </li>
+    </ul>
     <p2>My pathway has a strong focus on gathering knowledge and improving my projects work. While i may not have many cirtifications or degrees, I hope i can improve myself and help others.</p2>
     <p3>For now, i enrolled in Full Stack Developer Bootcamp to expand and enhance my practical skills.</p3>
     <br>
     <br>
     <br>
     <br>
+
+
+
+
+    <hr>
     <h1>Hobbies</h1>
-    <p1>There is a trend going around on Tiktok about becomming the next Billionaire, Selfi mprovement or reading books about psychology. This was where i got the inspiration to start reading books.</p1>
-    <p2>It also help me reduce stress. You should try reading books it help's a lot.<br></p2>
+    <p1>I realy like to read a lot of books.</p1>
+    <br>
     <img src="book.jpg" alt="I like to read books" height="350">
+    <img src="book1.jpg" alt="book open the mind" height="350">
+    <img src="book2.jpg" alt="reduce strees and build vocabulary" height="350">
     <br>
     <br>
     <br>
@@ -161,17 +235,24 @@
     <p3>I am a gamer boy, i like to play diffirent genre whether it's classic old title game like Tetris or game like Warzone 2.0. Gaming is fun this is where i started taking screenshot or screnrecording 
         for the sole purpose of capturing the moment then late came the idea of editing those presious picture. Hance i am Digital Photographer also.</p3>
     <h3>Check out my work.<br>Games</h3>
-    <img src="Ghost of Tsushima1.jpg" alt="game1" height="600">
-    <img src="STAR WARS.jpg" alt="game2" height="600">
+
+
+
+
+<button onclick="previous()"> [--</button>   <!-- note the previous button does not have a function yet -->
+    <img src="Ghost of Tsushima1.jpg" id="GP" height="600">
+    <!-- <img src="STAR WARS.jpg" alt="game2" height="600">
     <img src="Ghost of Tsushima2.jpg" alt="game3" height="700">
-    <img src="Marvel's Spider-Man.jpg" alt="game4" height="700">
-    <h3>My home setup</h3>
-    <img src="setup.jpg" alt="setup" height="700" width="900">
+    <img src="Marvel's Spider-Man.jpg" alt="game4" height="700"> -->
+<button onclick="next()"> --]</button>
 </body>
 
+
+<!-- style for whole body web page -->
 <style>
     body {
     background: rgb(70, 80, 90);
+    
 }
 </style>
 

@@ -10,12 +10,31 @@
 
 
 
+# class Person:
+#     def __init__(self, name, age, gender):
+#         self.name = name
+
+
+#         self.age = age
+    
+#         self.gender = gender
+
+# def speak(self):
+
+#     def __init__(self, name, age):
+#         self.name = name
+    
+#         self.age = age
+        
+
+        
+#     def speak(self):
+#         print("Hello, my name {} and I am {} years old.".format(self.name, self.age))
 
 
 
-
-
-
+def greet(name):
+    print(f"sup , {name}")
 
 
 
