@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/w5_protfolio/idex copy.html"
+    "livePreview.defaultPreviewPath": "/w5_protfolio/idex copy.html",
+    "python.analysis.typeCheckingMode": "basic"
 }

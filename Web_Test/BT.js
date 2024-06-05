@@ -1,13 +1,13 @@
 var currentImage=0;
 
 function next(){
-    if (currentImage>=2){
-        currentImage=0;
+    if (currentImage>=3){
+        currentImage=1;
     } else {
-        currentImage++;
-}
+        currentImage=currentImage+1;
+    }
 
-    Document.querySelector("#image").src="images/"+currentImage+".jpeg"
+    document.querySelector("#image").src="images/car"+currentImage+".jpeg"
 
 }
 

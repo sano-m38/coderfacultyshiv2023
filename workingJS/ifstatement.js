@@ -4,19 +4,21 @@
 // 4. Update your program to also  check if the name is "Bob". If true, print "Welcome Bob!"
 
 
-let name;
-
-console.log("please enter your name"   )
 
 
+function pename(name){             //need to put name between ()
+    if (name == "alice"){       //think about replacing the pename with name 
+        return "welcom alice"
+    }else if (name == "bob"){
+        return "welcome bob"
+    }else
+    return "you are not bob or alice"
+}
 
+// console.log(pename("san"));  use log
 
-
-
-
-
-
-
+// i don't know why there is a problem with the run button 
+// i try the code is working on the net
 
 
 

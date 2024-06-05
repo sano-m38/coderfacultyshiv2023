@@ -35,21 +35,12 @@
 #     def verify_password(self, password):
 #         return bcrypt.checkpw(password.encode, self.password)
 
-# 
+
+#////////////////////////////////                              //////////////////////////////// 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+ 
 ### Optional tasks
 # 1. Use argparse module to handle command-line arguments and create a user-friendly command-line interface.
 #     An example is shown below:
@@ -91,15 +82,15 @@
 
 # tryong example from yt video
 
-from argparse import ArgumentParser, Namespace
+# from argparse import ArgumentParser, Namespace
 
-parser = ArgumentParser()
+# parser = ArgumentParser()
 
-parser.add_argument('square' , help = 'Squares a given number' , type=int)
+# parser.add_argument('square' , help = 'Squares a given number' , type=int)
 
-arg: Namespace= parser.parse_args()
+# arg: Namespace= parser.parse_args()
 
-print(arg.square ** 2)      #problem with pylance not defining it  
+# print(arg.square ** 2)      #problem with pylance not defining it  
 
 
 # from argparse import ArgumentParser, Namespace
@@ -111,6 +102,145 @@ print(arg.square ** 2)      #problem with pylance not defining it
 # arg = parser.parse_args()
 
 # print(arg.register)  
+
+
+# ///////////////////////////////////////////////////////////////////////////////////////////
+
+# v01
+
+
+# def screen():
+#     print("1. Create_Account")
+#     print("2. Login")
+#     print("3. Reset_Password") 
+#     print("4. Exit")
+# screen()
+
+
+# def create_account():
+#     print("$ python todo_manager.py create account")
+#     username = input("please enter your username ") 
+#     password =input ("please enter your password ")
+#     print (f" username : {username} ")
+#     print (f" password : {password} ")
+
+
+# def login():
+#     print("$ python todo_manager.py login")
+#     username = input("please enter your username ") 
+#     password =input ("please enter your password ")
+#     print (f" username : {username} ")
+#     print (f" password : {password} ")
+
+
+# def reset_password():
+#     print("$ python todo_manager.py reset-passoword")
+
+
+# options = input("select your opetions")
+# if options == "1" :
+#     create_account()
+# elif options == "2" :
+#     login()
+# elif options == "3" :
+#     reset_password()
+# elif options == "4" :   # need to add " " for the answere to work
+    # print("Exit")
+
+
+
+
+# /////////////////////////////////////////////////////////////////////////////////////////////
+
+# v02
+# trying to create a log record
+
+
+
+# def screen():
+#     print("1. Create_Account")
+#     print("2. Login")
+#     print("3. Reset_Password") 
+#     print("4. Exit")
+# screen()
+
+
+
+# ca_d={    }
+
+# def create_account():
+#     print("$ python todo_manager.py create account")
+#     username = input("please enter your username ") 
+#     password =input ("please enter your password ")
+
+# # ?
+#     ca_d.add(username,password)
+#     print (f" username : {username} ")
+#     print (f" password : {password} ")
+
+
+
+
+
+# def login():
+#     print("$ python todo_manager.py login")
+#     username = input("please enter your username ") 
+#     password =input ("please enter your password ")
+#     print (f" username : {username} ")
+#     print (f" password : {password} ")
+
+
+# def reset_password():
+#     print("$ python todo_manager.py reset-passoword")
+#     print("select account you want to reset")
+#     username = input("please enter your username ") 
+#     password = input ("please enter your password ")
+
+#     ca_d.remove(username,password)
+
+
+# options = input("select your opetions")
+# if options == "1" :
+#     create_account()
+# elif options == "2" :
+#     login()
+# elif options == "3" :
+#     reset_password()
+# elif options == "4" :   
+#     print("Exit")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

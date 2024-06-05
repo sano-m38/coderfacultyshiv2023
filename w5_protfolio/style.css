@@ -1,62 +1,150 @@
-/* THIS ENTIRE STYLE.CSS PAGE IS NOT NECCEARY. QATCH  */
-
-
-/* body {
-    background: lightgray;
-} */
-
-/* trying to change color of the scroll bar ?
-html::-webkit-scrollbar{
-    width:1.4rem;
+/* <!--  style for navbar with content  --> */
+.navbar{
+    border-style: groove; 
+    border-color: whitesmoke; 
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-top: -8px;
 }
 
-html::-webkit-scrollbar-track{
-    background-color: darkred;
-}
 
-html::-webkit-scrollbar-thumb{
-    background-color:var(--black);
+
+/* trying to change the icon color for the navbar to white */
+/* .navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"
+    );
+}
+.navbar-light .navbar-toggler{
+    border: 1px solid white;
 } */
 
-/* trying to put picture in a circle form not working? 
-head .user img{
-    height:17rem;
-    width:17rem;
-    border-radius: 50%;
+
+
+
+
+/*  style for the home presentation  */
+p{
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Calibri';
+}
+.hp {
+border:3px ;
+border: solid;
+border-color: whitesmoke;
+border-radius: 10px;
+margin-left: 50px;
+margin-right: 15px;
+float: left; /* this to reposition to the left side.*/
+}
+
+
+
+
+/*<table>     trying to place this table form on the view more
+<tr>
+    <tb>
+        <label>Fullname</label>
+        <input type="text" placeholder="Please enter your full name." required>
+    </tb>
+</tr>
+<tr>
+    <tb>
+        <label>Email</label>
+        <input type="email" placeholder="email address" required>
+    </tb>
+</tr>
+<br>
+<tr>
+    <tb>
+        <label>Gender</label>
+        <input type="radio" name="gender"><label>Male</label>
+        <input type="radio" name="gender"><label>Female</label>
+    </tb>
+</tr>
+<br>
+<tr>
+    <input type="text" placeholder="Name country" required>
+</tr>
+<br>
+<input type="checkbox"><label>I Accept the terms and conditions.</label>
+<br>
+<input type="checkbox"><label>Submit.</label>
+</table> */
+
+
+
+
+
+/* for text that need to be repositioned  */
+h1,h2,h3 {
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Calibri';
+}
+.p1,.p2,.p3{
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* .listbook{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Calibri';
+} */
+
+
+
+
+/* when removing its affecting card height */
+    .card-img {
+        max-height: 200px;
+    }
+
+
+
+
+/* style for whole body web page */
+    body {
+        background: rgb(82, 109, 130);
+        
+    }
+
+
+
+/* overrall its for the hobby section */
+/* style for books */
+.books{
+    text-align: center; /* center books */
+}
+
+
+
+
+
+/* for the slideshow */
+.c-item{
+    height: 998px;
+
+}
+.c-img{
+    height: 100%;
     object-fit: cover;
-    margin-bottom: 1rem;
-    border:.7rem solid var(--red);
-} */
-
-
-/* trying to better look at navbar? */
-/* body1 .header {
-    list-style: none;
-    padding:1em 3em;
-} */
-/* 
-body1 .header navbar {
-    display:block;
-    padding:1rem;
-    margin:1.5rem 0;
-    background: black;
-    color:aliceblue
-    font-size: 2rem;
-    border-radious: 5rem; 
-} */
+}
 
 
 
 
 
+    footer{
+        background: rgb(33,37,41);
+        text-align: center;
+    }
 
-
-
-
-
-
-
-
-
-
-
+    li{ 
+        display: inline-block;
+    }
+    li a {
+        margin-right: 20px;
+    }

@@ -11,7 +11,7 @@
 // 6. Print the name and the age in one single `print()` using string formatting
 
 
-let name = "John"
+let name = "John";
 let single = false 
 
 let age = console.log("please enter your name") 
